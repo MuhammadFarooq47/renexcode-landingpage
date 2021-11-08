@@ -1,0 +1,479 @@
+.header-form form .form-action button,
+.inline-form-carousel form .form-action button,
+.sticky-form form .form-action button {
+    text-transform: capitalize!important;
+    font-weight: 500!important
+}
+
+.header-form form .form-group .control-label,
+.header-form form .form-group label.error,
+.inline-form-carousel form .form-group .control-label,
+.inline-form-carousel form .form-group label.error,
+.sticky-form form .form-group .control-label,
+.sticky-form form .form-group label.error {
+    display: none !important;
+    position: absolute;
+}
+
+.header-form form .form-group input.error,
+.header-form form .form-group textarea.error,
+.inline-form-carousel form .form-group input.error,
+.inline-form-carousel form .form-group textarea.error,
+.sticky-form form .form-group input.error,
+.sticky-form form .form-group textarea.error {
+    border-color: red
+}
+
+.header-form form .form-group input[type=email],
+.header-form form .form-group input[type=text] {
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    padding: 0 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 3px
+}
+
+.header-form form .form-group:nth-child(1),
+.header-form form .form-group:nth-child(3) {
+    width: 32.4%;
+    float: left
+}
+
+.header-form form .form-group:nth-child(2) {
+    float: left;
+    width: 32.4%;
+    margin: 0 9px
+}
+
+.header-form form .form-group:nth-child(4) {
+    float: left;
+    width: 49.3%
+}
+
+.header-form form .form-action {
+    float: right;
+    width: 49.3%
+}
+
+.header-form form .form-group textarea {
+    width: 100%;
+    border-radius: 3px;
+    height: 40px;
+    resize: none;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    padding: 9px;
+    font-size: 16px;
+}
+
+.header-form form .form-action button {
+    height: 40px;
+    background-color: #1fb3fc!important;
+    font-size: 16px!important;
+    width: 100%;
+    border: none
+}
+
+.header-form label[for=checkbox_144365_0] {
+    padding-left: 30px;
+    text-align: left;
+    color: #aeb1b9;
+    line-height: 24px;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    float: left
+}
+
+.header-form label[for=checkbox_nda_0] input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer
+}
+
+.header-form .c_checkbox {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 3px solid #dde1e8
+}
+
+.header-form label[for=checkbox_nda_0] input:checked~.c_checkbox {
+    border-color: #1f74fb
+}
+
+.header-form .c_checkbox:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+
+.header-form label[for=checkbox_nda_0] input:checked~.c_checkbox:after {
+    display: block
+}
+
+.page-template-page-landing1 .header-form label[for=checkbox_nda_0] {
+    color: #fff
+}
+
+.page-template-page-landing1 .header-form label[for=checkbox_nda_0] input:checked~.c_checkbox {
+    border-color: #fff
+}
+
+.header-form label[for=checkbox_nda_0] .c_checkbox:after {
+    left: 4px;
+    top: 2px;
+    border: solid;
+    width: 6px;
+    height: 10px;
+    color: #1f74fb;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.sticky-form form .form-group input {
+    height: auto !important;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 3px
+}
+
+.sticky-form form .form-group textarea {
+    width: 100%;
+    border-radius: 3px;
+    resize: none;
+    background-color: #fff;
+    border: 1px solid #aeb1b9
+}
+
+.sticky-form form .form-action button {
+    height: 45px;
+    background-color: #1fb3fc!important;
+    font-size: 16px!important;
+    width: 100%;
+    border: none
+}
+
+.inline-form-carousel form .form-group input {
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 3px
+}
+
+.inline-form-carousel form .form-group textarea {
+    width: 100%;
+    border-radius: 3px;
+    resize: none;
+    background-color: #fff;
+    border: 1px solid #aeb1b9
+}
+
+.inline-form-carousel form .form-action button {
+    height: 45px;
+    background-color: #1fb3fc!important;
+    font-size: 16px!important;
+    width: 100%;
+    border: none
+}
+
+@media screen and (min-width:561px) and (max-width:597px) {
+    .header-form form .form-group:nth-child(1),
+    .header-form form .form-group:nth-child(2),
+    .header-form form .form-group:nth-child(3) {
+        width: 31.8%
+    }
+}
+
+@media screen and (min-width:381px) and (max-width:560px) {
+    .header-form form .form-group:nth-child(1),
+    .header-form form .form-group:nth-child(2),
+    .header-form form .form-group:nth-child(3) {
+        width: 32.1%
+    }
+    .header-form form .form-group:nth-child(2) {
+        margin: 0 7px
+    }
+}
+
+@media screen and (min-width:120px) and (max-width:380px) {
+    .header-form form .form-group:nth-child(1),
+    .header-form form .form-group:nth-child(2),
+    .header-form form .form-group:nth-child(3),
+    .header-form form .form-group:nth-child(4) {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 15px
+    }
+    .header-form form .form-group textarea {
+        height: 100px
+    }
+    .header-form form .form-action {
+        /* float: none;
+        width: 100% */
+        float: right !important;
+        width: 100%
+    }
+}
+
+.header-form .form-group .checkbox {
+    float: left;
+    margin-top: 0;
+}
+
+.header-form .form-group .checkbox label {
+    padding-left: 25px;
+    line-height: 24px;
+}
+
+.header-form .form-group .checkbox label {
+    padding-left: 25px;
+    line-height: 24px;
+}
+
+
+/* Section Form */
+
+body.public.app.app-embed {
+    background: transparent;
+}
+
+.footer-form .form-control::-webkit-input-placeholder {
+    color: transparent;
+    font-size: 16px !important;
+}
+
+.footer-form .form-control::-moz-placeholder {
+    color: transparent;
+    font-size: 16px !important;
+}
+
+.footer-form .form-control:-ms-input-placeholder {
+    color: transparent;
+    font-size: 16px !important;
+}
+
+.footer-form .form-control:-moz-placeholder {
+    color: transparent;
+    font-size: 16px !important;
+}
+
+.footer-form .form-group,
+.form-action {
+    position: relative;
+}
+
+.footer-form .form-control {
+    position: relative;
+    height: auto;
+    border: 0;
+    background: 0 0;
+    color: #313941;
+    font-weight: 300;
+    -webkit-appearance: none;
+    line-height: 1.4em;
+    border-radius: 0;
+    border-bottom: 1px solid #b0b0b0;
+    box-shadow: none;
+}
+
+.footer-form .form-group label.error {
+    display: none!important
+}
+
+.footer-form .form-wrap form.footer-form {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.footer-form .form-control {
+    width: 100%;
+    padding: 1.4em .6em .5em .7em;
+    font-weight: 300;
+    font-size: 17px;
+    resize: none
+}
+
+.footer-form .form-group label {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    height: 100%;
+    pointer-events: none;
+    left: 0;
+}
+
+.footer-form input.form-control:focus~.footer-form .form-group label,
+.footer-form input.form-control:not(:focus):valid~.footer-form .form-group label {
+    top: 8px;
+    bottom: 10px;
+    left: 20px;
+    font-size: 11px;
+    opacity: 1;
+}
+
+.footer-form .form-group label {
+    position: absolute;
+    pointer-events: none;
+    left: 0px;
+    top: 0px;
+    transition: 0.2s ease all;
+    color: #b0b0b0;
+}
+
+.footer-form .btn-primary {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #061a79;
+    border-color: #061a79;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.footer-form .btn-primary:active:hover {
+    background-color: #061a79;
+    border-color: #061a79;
+}
+
+
+/*--------------*/
+
+.side-form label {
+    display: none !important;
+}
+
+.side-form button {
+    width: 100%;
+}
+
+.side-form .control-label {
+    display: none !important;
+}
+
+.side-form button {
+    width: 100%;
+    height: 45px;
+    background-color: #1565f1 !important;
+    font-size: 16px!important;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+}
+
+.model-form label {
+    display: none !important;
+}
+
+.model-form button {
+    width: 100%;
+}
+
+.model-form .control-label {
+    display: none !important;
+}
+
+.model-form button {
+    width: 100%;
+    height: 45px;
+    background-color: #061a79 !important;
+    font-size: 16px!important;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+}
+
+.model-form .form-group input {
+    height: auto !important;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.model-form .form-group textarea {
+    height: auto !important;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 3px;
+    resize: none;
+}
+
+.sticky-form form .form-group input {
+    height: auto !important;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.side-form .form-group input {
+    height: auto !important;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.side-form .form-group textarea {
+    height: auto !important;
+    background-color: #fff;
+    border: 1px solid #aeb1b9;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 3px;
+    resize: none;
+}
+
+textarea.error {
+    border: 1px solid red !important;
+}
+
+input.error {
+    border: 1px solid red !important;
+}
+
+.footer-form input.error {
+    border-bottom: 2px solid red !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.footer-form textarea.error {
+    border-bottom: 2px solid red !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.btn-primary {
+    color: #FFF;
+    border-color: #061a79;
+    width: 100%;
+}
